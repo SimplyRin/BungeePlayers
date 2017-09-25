@@ -72,7 +72,7 @@ public class BungeePlayers extends JavaPlugin implements Listener, PluginMessage
 		}
 	}
 
-	public static void sendMessage(List<String> list) {
+	private static void sendMessage(List<String> list) {
 		ByteArrayOutputStream b = new ByteArrayOutputStream();
 		DataOutputStream out = new DataOutputStream(b);
 
